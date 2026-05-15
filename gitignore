@@ -1,0 +1,35 @@
+# Data files (not committed — add your own)
+*.csv
+data/
+datasets/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environments
+.env
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights (large files)
+*.h5
+*.keras
+*.pt
+*.pth
+saved_models/
+
+# Google Drive / Colab artifacts
+drive/
