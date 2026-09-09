@@ -1,10 +1,10 @@
-# 📈 Realized Volatility Forecasting — BTC/USD
+#  Realized Volatility Forecasting — BTC/USD
 
 > Comparing HAR-family econometric models and deep learning architectures (LSTM, GRU, CNN-1D, TCN) for next-day realized volatility forecasting on Bitcoin/USD high-frequency data.
 
 ---
 
-## 🔍 Overview
+##  Overview
 
 This project benchmarks **15 forecasting models** across two paradigms:
 
@@ -15,7 +15,7 @@ Model accuracy is evaluated via **MSE** and statistical significance is assessed
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 btcusd-rv-forecasting/
@@ -29,7 +29,7 @@ btcusd-rv-forecasting/
 
 ---
 
-## 🧠 Models
+##  Models
 
 ### HAR-family (OLS, statsmodels)
 
@@ -97,7 +97,7 @@ Rich feature set derived from raw RV:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -130,7 +130,7 @@ jupyter notebook btcusd_rv_forecasting.ipynb
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 ```
 tensorflow>=2.12
@@ -148,7 +148,7 @@ See `requirements.txt` for pinned versions.
 
 ---
 
-## 📊 Key Outputs
+##  Key Outputs
 
 | Output | Description |
 |---|---|
@@ -158,7 +158,7 @@ See `requirements.txt` for pinned versions.
 
 ---
 
-## 🎓 Academic Context
+##  Academic Context
 
 This notebook is part of a Master's thesis in **Data Analytics for Business and Society** (LM-91) at Ca' Foscari University of Venice, focusing on realized volatility modelling for cryptocurrency markets.
 
@@ -166,7 +166,7 @@ The work extends the classical HAR framework (Corsi, 2009) with modern deep lear
 
 ---
 
-## 📄 References
+##  References
 
 - Corsi, F. (2009). *A Simple Approximate Long-Memory Model of Realized Volatility*. Journal of Financial Econometrics.
 - Barndorff-Nielsen, O.E. & Shephard, N. (2004). *Power and Bipower Variation*.
